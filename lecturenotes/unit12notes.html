@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        /* function is a command, welcome is a name we made up.
+        this is just naming code  */
+        function welcome (){
+            alert("Hello World");
+        }
+        function second(){
+            alert("Second Pop Up");
+        }
+        function third(){
+            alert("Third Message");
+        }
+    </script>
+</head>
+<body onload="third();">
+    <!-- onlclick works for any element not just for a tags-->
+    <h1 onclick="welcome()";>JavaScript</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eius voluptas modi aliquid eum dignissimos adipisci laboriosam dicta nihil quasi, cumque magni, a unde, temporibus quisquam repellat. Consequatur, quo vel.</p>
+    <a onclick="welcome();" href="">Welcome Us</a>
+    <p onmouseover="second();">this one will call the function when the mouse rolls over</p>
+</body>
+</html>
