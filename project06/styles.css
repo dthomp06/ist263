@@ -5,4 +5,19 @@ body{
     color: #152A38;
   
 }
-    
+h2{text-align:center;}
+
+nav{
+background-color: #2F5241;
+padding: 10px;
+margin-bottom: 30px
+
+}
+
+nav a, nav span{
+color:#E4E5DB;
+}
+@media only screen and (max-width: 600px){
+    .nav a{display: block;
+    padding-top:2%} span{display:none}}
+

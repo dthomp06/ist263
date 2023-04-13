@@ -21,7 +21,6 @@
     .voice{
         float:left;
         max-width:25%;
-        max-height:25%;
         padding: 30px;
         text-align:justify;}
     .voiceclear{
@@ -29,7 +28,6 @@
     .foundation{
         float:right;
         max-width:50%;
-        max-height:50%;
         padding: 6px}
 
     .foundationclear{
@@ -39,10 +37,13 @@
         display:flex;
         justify-content:space-around;
         }
+    
+    .award1,.award2{flex:2;}
 
     .awardsize{
-    max-width:30%;
-    padding:30px;}
+    max-width:100%;
+    padding:30px;
+    flex:1;}
 
     .container1{
         display:flex;
@@ -51,27 +52,13 @@
         flex-wrap:wrap;
     }
 
-    h2{text-align:center;}
 
-    nav{
-    background-color: #2F5241;
-    padding: 10px;
-    margin-bottom: 30px
-    
-}
-
-nav a, nav span{
-    color:#E4E5DB;
-}
 
     @media only screen and (max-width: 600px){
         .parents,.voice,.foundation,.awardsize{float:none;
-        max-width:90%;}}
+        max-width:100%; flex-shrink:3;
+}}
 
-
-    @media only screen and (max-width: 600px){
-    .nav a{display: block;
-    padding-top:2%} span{display:none}}
 
    
    
@@ -85,7 +72,6 @@ nav a, nav span{
         <a href="tour.html">Tour</a>
       </nav>
    
-<div class="imagecontainer">
     <img src="../images/morgan-wallen-tour.jpeg" alt="Morgan Wallen" class="banner">
     <h2>Who is Morgan Wallen?</h2>
     <img src="../images/about.jpg" alt="Morgan Wallen with his parents" class="parents">
@@ -93,7 +79,7 @@ nav a, nav span{
         Morgan Cole Wallen was born on May 13, 1993, in Sneedville, Tennessee and is currently 29 years old. He is the son of Tommy and Lesli Wallen, and the brother of Ashlyne, Mikaela, and Lacey Wallen. In 2020, Morgan welcomed a son, Indigo Wilder, into the world. Although he is no longer with the mother of his son, they coparent together for the sake of their son. When he is not on tour, Morgan resides in Nashville, Tennessee. Morgan Wallen is a big sports fan and even believed that he would play baseball professionally one day, until an elbow injury forced him to quit. This was the point at which he started to consider music as a career. Today, he is one of the most popular country artists in the United States, and as of January 2023, Wallen had a net worth of around $4 million dollars.
     </p>
     <div class="parentsclear"></div>
-    <div class="top-left">Morgan Wallen</div>
+
 </div>
     <h2>Rise To Fame</h2>
 <div class="container1">
