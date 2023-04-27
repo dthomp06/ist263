@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
@@ -16,6 +17,7 @@
     .parentflag{
         display: flex;
         justify-content: space-around;
+        padding:40px;
     }
 
     table,th,td{border:1px solid;}
@@ -24,6 +26,28 @@
 
     h1,h2,h3,p,table{font-family: 'Cabin', sans-serif;}
 
+    @media only screen and (max-width: 600px){
+        .parentflag{float:none;
+            max-width:100%;
+            flex-direction: column;
+    }}
+    
+    @media only screen and (max-width: 600px){
+       table{display:none;}
+    }
+
+    @media only screen and (min-width: 600px){
+       .timeline{display:none;}
+    }
+
+    .row{
+    display:flex;
+    justify-content:space-around}
+
+.rowdate{border-right:5px solid black;}
+
+.rowlocation{padding-left:.25em;}
+    
 </style>
 </head>
 <body>
@@ -369,5 +393,23 @@
         
     </table>
 
+<div class="timeline">
+    <div class="row">
+        <div class="rowdate">
+            <p>March 15</p>
+        </div>
+        <div class="rowlocation">
+            <p>Spark Arena<br>Auckland, New Zealand</p> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="rowdate">
+            <p>March 15</p>
+        </div>
+        <div class="rowlocation">
+            <p>Spark Arena<br>Auckland, New Zealand</p> 
+        </div>
+    </div>
+   </div>
 </body>
 </html>
