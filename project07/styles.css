@@ -16,9 +16,16 @@ margin-bottom: 30px
 
 nav a, nav span{
 color:#E4E5DB;
+
 }
+
 @media only screen and (max-width: 600px){
     .nav a{display: block;
     padding-top:2%} span{display:none}}
 
-body{margin: 40px;}
+body{margin: 25px;}
+
+nav a:hover{background-color:#152a38;}
+
+
+

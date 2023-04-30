@@ -44,22 +44,35 @@
     display:flex;
     justify-content:space-around}
 
-.rowdate{border-right:5px solid black;}
+.rowdate{border-right:5px solid black;
+justify-content:flex-end;
+padding-right:.25em;}
 
 .rowlocation{padding-left:.25em;}
+
+.rowdate,.rowlocation{
+    display:flex;
+    flex:1;}
+
+    @media only screen and (max-width: 600px){
+       .parentflag{display:none;}
+    }
+
+h1{text-align:center;}
+
     
 </style>
 </head>
 <body>
-    <nav>
-        <a href="about.html">About |</a>
-        <a href="songs.html">Songs |</a>
+    <nav class="nav">
+        <a href="about.html">About</a><span> | </span>
+        <a href="songs.html">Songs</a><span> | </span>
         <a href="tour.html">Tour</a>
       </nav>
 
-    <h1>Morgan Wallen Tour </h1>
 
-    <img src="../images/2023_tour.jpeg" alt="Wallen Tour" class="tour">
+    <img src="../images/tour2.jpg" alt="Wallen Tour" class="tour">
+    <h1>Morgan Wallen 2023 Tour </h1>
 
     <div class="parentflag">
         <div>
@@ -77,7 +90,7 @@
     </div>
 
 
-    <h3>In 2023, the average ticket price of a Morgan Wallen ticket is $365 dollars. Floor seats/front row seats are approximately $1,575. ERNEST and Bailey Zimmerman will join Wallen on tour this upcoming tour. HARDY and Parker McCollum will also open for him on certain dates as well. </h3>
+    <p>In 2023, the average ticket price of a Morgan Wallen ticket is $365 dollars. Floor seats/front row seats are approximately $1,575. ERNEST and Bailey Zimmerman will join Wallen on tour this upcoming tour. HARDY and Parker McCollum will also open for him on certain dates as well. </p>
     <h3>Morgan Wallen 2023 Tour Dates and Locations:</h3>
     <table>
         <tr>
@@ -387,7 +400,7 @@
         </tr>
         <tr class="evenrow">
             <td>October 7</td>
-            <td>Tacome Dome</td>
+            <td>Tacoma Dome</td>
             <td>Tacoma, WA, USA</td>
         </tr>
         
@@ -402,14 +415,557 @@
             <p>Spark Arena<br>Auckland, New Zealand</p> 
         </div>
     </div>
+
     <div class="row">
         <div class="rowdate">
-            <p>March 15</p>
+            <p>March 21</p>
         </div>
         <div class="rowlocation">
-            <p>Spark Arena<br>Auckland, New Zealand</p> 
+            <p>Qudos Bank Arena<br>Sydney, Australia</p> 
         </div>
     </div>
-   </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>March 22</p>
+        </div>
+        <div class="rowlocation">
+            <p>Qudos Bank Arena<br>Sydney, Australia</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>March 24</p>
+        </div>
+        <div class="rowlocation">
+            <p>Rod Laver Arena<br>Melbourne, Australia</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>March 25</p>
+        </div>
+        <div class="rowlocation">
+            <p>Rod Laver Arena<br>Melbourne, Australia</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>April 14</p>
+        </div>
+        <div class="rowlocation">
+            <p>American Family Field<br>Milwaukee, Australia</p> 
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="rowdate">
+            <p>April 15</p>
+        </div>
+        <div class="rowlocation">
+            <p>American Family Field<br>Milwaukee, Australia</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>April 20</p>
+        </div>
+        <div class="rowlocation">
+            <p>KFC Yum Center<br>Louisville, KY, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>April 22</p>
+        </div>
+        <div class="rowlocation">
+            <p>Vaught Hemingway Stadium<br>University, MS, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>April 23</p>
+        </div>
+        <div class="rowlocation">
+            <p>Vaught Hemingway Stadium<br>University, MS, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>April 27</p>
+        </div>
+        <div class="rowlocation">
+            <p>Van Andel Arena<br>Grand Rapids, MI, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>April 28</p>
+        </div>
+        <div class="rowlocation">
+            <p>Vibrant Park Arena at the MARK<br>Moline, IL, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>April 29</p>
+        </div>
+        <div class="rowlocation">
+            <p>Pinnacle Bank Arena<br>Lincoln, NE, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>May 4</p>
+        </div>
+        <div class="rowlocation">
+            <p>VyStar Veterans Memorial Arena<br>Jacksonville, FL, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>May 5</p>
+        </div>
+        <div class="rowlocation">
+            <p>iThink Financial Ampitheatre<br>West Palm Beach, FL, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>May 6</p>
+        </div>
+        <div class="rowlocation">
+            <p>MidFlorida Credit Union Ampitheatre at the Florida State Fairgrounds<br>Tampa, FL, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>May 18</p>
+        </div>
+        <div class="rowlocation">
+            <p>Hersheypark Stadium<br>Hershey, PA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>May 19</p>
+        </div>
+        <div class="rowlocation">
+            <p>MetLife Stadium<br>East Rutherford, NJ, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>May 20</p>
+        </div>
+        <div class="rowlocation">
+            <p>MetLife Stadium<br>East Rutherford, NJ, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>May 24</p>
+        </div>
+        <div class="rowlocation">
+            <p>Moody Center<br>Austin, TX, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>May 26</p>
+        </div>
+        <div class="rowlocation">
+            <p>Minute Maid Park<br>Houston, TX, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>TBA - Gulf Coast Jam 4 Day Pass: Jun 1-4</p>
+        </div>
+        <div class="rowlocation">
+            <p>Frank Brown Park<br>Panama City Beach, FL, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 1</p>
+        </div>
+        <div class="rowlocation">
+            <p>Truist Park<br>Atlanta, GA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 2</p>
+        </div>
+        <div class="rowlocation">
+            <p>Truist Park<br>Atlanta, GA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>TBA: Jun 8-11</p>
+        </div>
+        <div class="rowlocation">
+            <p>Burroughs & Chapin Pavillion Place<br>Myrtle Beach, SC, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 8</p>
+        </div>
+        <div class="rowlocation">
+            <p>Veterans United Home Loans Ampitheatre at Virginia Beach, VA, USA <br>Atlanta, GA, USA</p> 
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="rowdate">
+            <p>June 9</p>
+        </div>
+        <div class="rowlocation">
+            <p>Veterans United Home Loans Ampitheatre at Virginia Beach, VA, USA <br>Atlanta, GA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 14</p>
+        </div>
+        <div class="rowlocation">
+            <p>PNC PARK<br>Pittsburgh, PA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 15</p>
+        </div>
+        <div class="rowlocation">
+            <p>PNC PARK<br>Pittsburgh, PA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 17</p>
+        </div>
+        <div class="rowlocation">
+            <p>Citizens Bank Park<br>Philadelphia, PA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 22</p>
+        </div>
+        <div class="rowlocation">
+            <p>Wrigley Field<br>Chicago, IL, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 23</p>
+        </div>
+        <div class="rowlocation">
+            <p>Wrigley Field<br>Chicago, IL, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 29</p>
+        </div>
+        <div class="rowlocation">
+            <p>Fort Field<br>Detroit, MI, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>June 30</p>
+        </div>
+        <div class="rowlocation">
+            <p>Fort Field<br>Detroit, MI, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>July 6</p>
+        </div>
+        <div class="rowlocation">
+            <p>Busch Stadium<br>St. Louis, MO, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>July 7</p>
+        </div>
+        <div class="rowlocation">
+            <p>Busch Stadium<br>St. Louis, MO, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>July 14</p>
+        </div>
+        <div class="rowlocation">
+            <p>Petco Park<br>San Diego, CA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>July 15</p>
+        </div>
+        <div class="rowlocation">
+            <p>Petco Park<br>San Diego, CA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>July 19</p>
+        </div>
+        <div class="rowlocation">
+            <p>Chase Field<br>Phoenix, AZ, USA</p> 
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="rowdate">
+            <p>July 20</p>
+        </div>
+        <div class="rowlocation">
+            <p>Chase Field<br>Phoenix, AZ, USA</p> 
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="rowdate">
+            <p>July 22</p>
+        </div>
+        <div class="rowlocation">
+            <p>SoFi Stadium<br>Inglewood, CA, USA</p> 
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="rowdate">
+            <p>August 3</p>
+        </div>
+        <div class="rowlocation">
+            <p>WE Fest 3 at Soo Pass Ranch<br>Detroit Lakes, MN, USA</p> 
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="rowdate">
+            <p>August 4</p>
+        </div>
+        <div class="rowlocation">
+            <p>Camrose Regional Exhibition Grounds<br>Edmonton, Canada</p> 
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="rowdate">
+            <p>August 11</p>
+        </div>
+        <div class="rowlocation">
+            <p>Ohio Stadium<br>Columbus, OH, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>August 12</p>
+        </div>
+        <div class="rowlocation">
+            <p>Ohio Stadium<br>Columbus, OH, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>August 16</p>
+        </div>
+        <div class="rowlocation">
+            <p>Fenway Park<br>Boston, MA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>August 17</p>
+        </div>
+        <div class="rowlocation">
+            <p>Fenway Park<br>Boston, MA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>August 18</p>
+        </div>
+        <div class="rowlocation">
+            <p>Fenway Park<br>Boston, MA, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 2</p>
+        </div>
+        <div class="rowlocation">
+            <p>FedEx Field<br>Landover, MD, USA</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 14</p>
+        </div>
+        <div class="rowlocation">
+            <p>Budweiser Stage<br>Toronto, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 15</p>
+        </div>
+        <div class="rowlocation">
+            <p>Budweiser Stage<br>Toronto, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 16</p>
+        </div>
+        <div class="rowlocation">
+            <p>Budweiser Stage<br>Toronto, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 18</p>
+        </div>
+        <div class="rowlocation">
+            <p>Budweiser Stage<br>Toronto, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 22</p>
+        </div>
+        <div class="rowlocation">
+            <p>Centre Videotron<br>Quebec, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 23</p>
+        </div>
+        <div class="rowlocation">
+            <p>Bell Centre<br>Montreal, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 28</p>
+        </div>
+        <div class="rowlocation">
+            <p>Canada Life Centre<br>Winnipeg, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 29</p>
+        </div>
+        <div class="rowlocation">
+            <p>SaskTel Centre<br>Saskatoon, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>September 30</p>
+        </div>
+        <div class="rowlocation">
+            <p>Scotiabank Saddledome<br>Calagry, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>October 3</p>
+        </div>
+        <div class="rowlocation">
+            <p>Rogers Arena<br>Vancouver, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>October 4</p>
+        </div>
+        <div class="rowlocation">
+            <p>Rogers Arena<br>Vancouver, Canada</p> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="rowdate">
+            <p>October 7</p>
+        </div>
+        <div class="rowlocation">
+            <p>Tacoma Dome<br>Tacoma, WA, USA</p> 
+        </div>
+    </div>
+
+      </div>
+
+      <footer><hr>
+        &copy; 2023
+      </footer>
+
 </body>
 </html>
