@@ -17,7 +17,6 @@ body{margin: 25px;}
 nav a:hover{background-color:#152a38;}
 
 .nav {
-  overflow: hidden;
   background-color: #2F5241;
   font-family: Arial;
 }
