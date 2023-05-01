@@ -17,11 +17,10 @@ body{margin: 25px;}
 nav a:hover{background-color:#152a38;}
 
 .nav {
-  background-color: #2F5241;
     margin: 0;
     padding: 0;
-    background-color: #333;
-    position: fixed;
+    background-color: #2F5241;
+    position: absolute;
     top: 0;
     width: 100%;
 }
@@ -82,6 +81,9 @@ nav a:hover{background-color:#152a38;}
 .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .skip{font-size: 0.5em;}
+
 
   
   
