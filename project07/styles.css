@@ -17,12 +17,12 @@ body{margin: 25px;}
 nav a:hover{background-color:#152a38;}
 
 .nav {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 10px;
     background-color: #2F5241;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 80%;
 }
 
 .nav a {
